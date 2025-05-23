@@ -30,6 +30,12 @@
         "projectId": "073d9e6c-3a5d-41ef-88b9-c6fab0658155"
       }
     },
-    "owner": "amina-19"
+    "owner": "amina-19",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/073d9e6c-3a5d-41ef-88b9-c6fab0658155"
+    }
   }
 }
