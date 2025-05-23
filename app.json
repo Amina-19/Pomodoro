@@ -13,14 +13,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSUserNotificationUsageDescription": "Esta app usará notificaciones para avisarte cuando termina un Pomodoro."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.amina19.promodoro1"
+      "package": "com.amina19.promodoro1",
+      "permissions": ["NOTIFICATIONS"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -36,6 +40,7 @@
     },
     "updates": {
       "url": "https://u.expo.dev/073d9e6c-3a5d-41ef-88b9-c6fab0658155"
-    }
+    },
+    "plugins": ["expo-notifications"]
   }
 }
